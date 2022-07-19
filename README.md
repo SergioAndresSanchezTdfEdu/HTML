@@ -1,2 +1,2 @@
-# HTML
+# Ejercicios
 Created with CodeSandbox
