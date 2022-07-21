@@ -1,0 +1,35 @@
+a {
+  font-weight: bold;
+}
+
+h2 ~ p {
+  color: blue;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+p + p {
+  margin: 0px;
+  color: red;
+}
+
+li > a {
+  color: green;
+}
+
+a.segundo {
+  color: burlywood;
+}
+
+h2.primero {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+h2.segundo {
+  font-family: Georgia, "Times New Roman", Times, serifÇ;
+  color: violet;
+}
