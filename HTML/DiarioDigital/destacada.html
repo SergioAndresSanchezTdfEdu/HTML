@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dale que va ... - Diario Digital </title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="./css/style.css" rel="stylesheet">
+
+        
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Dale que va ...</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Argentina
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Historia</a></li>
+                      <li><a class="dropdown-item" href="#">Lugares Turísticos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Gobierno Actual</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Mundo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Deporte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Espectáculos</a>
+<!--                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar ..." aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!--- Flash News-->
+        <div class="flash-news-banner">
+            <div class="container">
+              <div class="d-lg-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                  <span class="badge badge-dark mr-3">Flash de noticias</span>
+                  <p class="mb-0">
+                    Preparan campaña de vacunación contra el Covid para niños de seis meses a tres años.
+                  </p>
+                </div>
+            <!-- Fecha y Clima -->
+                <div class="d-flex">
+                  <span class="mr-3 text-danger" id="current_date"> </span>
+                  <span class="text-danger">. -  4°C, Ushuaia</span>
+                </div>
+              </div>
+            </div>
+        </div>
+<!-- Noticia -->
+        <div class="col-sm">
+        <div class="card">
+            <div class="card-body">
+            <h5 class="card-title">Aumento salarial a Policia y Servicio Penitenciario, segun Gobierno es superior al 71 por ciento</h5>
+            <p class="card-text">El Gobierno de la Provincia rubricó con la Policía Provincial y el Servicio Penitenciario el acta acuerdo por un incremento acumulado anual superior al 71%.</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/policia.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/policia2.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/policia3.jpg" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br />
+            <p class="card-text">La firma estuvo encabezada por la ministra de Gobierno, Justicia y Derechos Humanos, Adriana Chapperón; el Secretario de Hacienda, Juan Pablo Ruiz Rullier; el jefe de la Policía Provincial, comisario General, Jacinto Rolón y el Inspector General Claudio Canovas. 
+                <br /><br />
+                En referencia al acuerdo, la Ministra Adriana Chapperón aseguró que se trató de “una ardua tarea, donde el Servicio Penitenciario y la Policía de la Provincia han hecho un gran trabajo en intentar poner en números, la composición del salario de las Fuerzas y cuál es el monto de lo que habían venido perdiendo desde el año 2008 en tema de jerarquización”. 
+                <br /><br />
+                “La situación en la que se encontró la Provincia en 2019, con los niveles de salarios en los que se asumió y con una inflación como la que tiene el país, habíamos podido dar porcentajes que afectaban a todas las categorías igual” indicó la funcionaria provincial. 
+                <br /><br />
+                A la vez, indicó que “en este acuerdo, por primera vez, se jerarquizaron los grados, tema que para los integrantes de las Fuerzas es muy importante, teniendo en cuenta al personal que recién ingresa, para que pudiera recibir los mismos aumentos percibidos por todos los escalafones de la administración”. 
+                <br /><br />
+                Asimismo, la Ministra ponderó este acuerdo, teniendo en cuenta que “la Policía de la Provincia, tiene una carga horaria superior a todos los sectores del Estado, en donde llegan a 56 horas semanales, por eso siempre hemos querido resaltar esta vocación de servicio y creo que esto se vio demostrado en el acuerdo que hemos firmado”. 
+                <br /><br />
+                Por su parte, el jefe de la Policía Provincia, comisario General, Jacinto Rolón expresó que “luego de muchas negociaciones hemos logrado firmar un nuevo acuerdo salarial, habiéndose cumplido los tramos iniciados a principio de año, donde en la fecha se percibió el último segmento correspondiente al 12,7% y hoy, se celebra este nuevo acuerdo con vistas a septiembre y octubre”. 
+                <br /><br />
+                “Este convenio es el último donde intervenimos los Jefes de Policía y Servicio Penitenciario; la reunión de octubre será llevada adelante por quienes resulten electos para el Consejo del Salario. También es muy importante destacar que, a partir de este acuerdo salarial, se empieza a dar una solución al viejo reclamo de la compactación salarial para el personal policial y penitenciario, que se origina en el año 2009; luego de muchísimo tiempo, éste Gobierno empieza a dar una solución a este reclamo de las Fuerzas de Seguridad” detalló. 
+                <br /><br />
+                Finalmente, en representación del Servicio Penitenciario, el Inspector General Claudio Canovas destacó el acuerdo y dijo que “fue un trabajo arduo, donde venimos trabajando en un viejo anhelo de poder mejorar la pirámide institucional, la que venía muy achatada” concluyó. 
+                <br /><br />
+                De la rúbrica participó el secretario de Enlace con las Fuerzas de Seguridad, José Díaz; el subsecretario de Gobierno, Octavio Correa; el Subjefe de Policía, Comisario General, Oscar Alfredo Barrios Kogan; el adjunto Principal, Carlos Briguera; e integrantes de los equipos de recursos humanos de la Policía y Servicio Penitenciario.</p>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control comentario" placeholder="Deja tu comentario aquí..." id="floatingTextarea2"></textarea>
+                <label for="floatingTextarea2">Comentarios</label>
+                <a href="#" class="btn btn-primary">Enviar</a>
+            </div>
+        </div>
+        </div>
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./js/javascript.js"></script>
+    </body>
+</html>
