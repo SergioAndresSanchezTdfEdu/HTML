@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--<link href="./css/style.css" rel="stylesheet">-->
+    
+</head>
+<body>
+    <h1>Compras de un cliente</h1>
+    <table class="table table-primary table-striped" id="tabla">
+        <thead>
+            <tH class="col-sm-8">Item</td>
+            <th class="col-sm-4">Monto</td>
+        </thead>
+        <tbody id="body">
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="col-sm-8">TOTAL</td>
+                <td class="col-sm-4">$ 0,00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- <div class="row tabla" id="tabla">
+        <div class="col-sm-8">Item</div>
+        <div class="col-sm-4">Monto</div>
+    </div>
+    <div class="row renglon" id="nuevo">
+    </div>
+    <div class="row">
+        <div class="col-sm-8">TOTAL</div>
+        <div class="col-sm-4">$ 0,00</div>
+    </div> -->
+
+    <form>
+        <div class="row">
+            <div class="mb-3 col-sm-8">
+                <label for="Item" class="form-label">Item</label>
+                <input type="text" class="form-control" id="item" aria-describedby="Item">
+                <div id="emailHelp" class="form-text">Ingrese el item a agregar.</div>
+            </div>
+            <div class="mb-3 col-sm-4">
+                <label for="Monto" class="form-label">Monto</label>
+                <input type="text" class="form-control" id="monto">
+                <div id="emailHelp" class="form-text">Ingrese el monto del item a agregar.</div>
+            </div>
+            <div class="col-sm-8">
+                <button type="submit" class="btn btn-primary" id="agregar">Agregar</button>
+            </div>
+            <div class="col-sm-4">
+                <button type="submit" class="btn btn-primary" id="calcular">Calcular</button>
+            </div>
+        </div>
+     </form>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./js/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
