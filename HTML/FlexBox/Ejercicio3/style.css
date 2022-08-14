@@ -14,10 +14,10 @@ p {
 
 .encabezado {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   justify-content: space-between;
   padding: 1%;
-  width: 97.9%;
+  width: 97.9%; 
   height: 65px;
   color: #101010;
   background-color: #cccccc;
@@ -26,14 +26,14 @@ p {
   border-radius: 5px;
 }
 
-.renglon1 {
+.renglon1 { 
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   align-content: space-around;
 }
 
-.renglon2 {
+.renglon2 { 
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -50,7 +50,7 @@ p {
 }
 
 .menu1 {
-  align-self: flex-end;
+  align-self: flex-end; 
   padding: 0.5%;
   width: 40%;
   color: white;
@@ -60,7 +60,7 @@ p {
 }
 
 .menu2 {
-  align-self: flex-end;
+  align-self: flex-end; 
   padding: 0.5%;
   width: 60%;
   color: white;
